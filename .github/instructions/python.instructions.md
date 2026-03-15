@@ -13,7 +13,7 @@ Core Principles
 - Keep code simple and readable; prefer clear names and small functions.
 - Favor explicitness and correctness over cleverness.
 - Comments should be brief and only explain "why", not "what" when code is clear.
-- utilize python 3.13 as a default, but be mindful of compatibility with older versions if necessary.
+- Utilize python 3.13 as a default, but be mindful of compatibility with older versions if necessary.
 
 Style & Formatting
 -------------------
@@ -31,16 +31,16 @@ Docstrings & Comments
 Example (Google style)
 ----------------------
 def add(a: int, b: int) -> int:
-	"""Add two integers.
+    """Add two integers.
 
-	Args:
-		a: First integer.
-		b: Second integer.
+    Args:
+        a: First integer.
+        b: Second integer.
 
-	Returns:
-		The sum of `a` and `b`.
-	"""
-	return a + b
+    Returns:
+        The sum of `a` and `b`.
+    """
+    return a + b
 
 Typing & APIs
 -------------
