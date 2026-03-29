@@ -1,0 +1,2 @@
+# General Instructions for Copilot
+This file contains general instructions for GitHub Copilot. These instructions will be applied to all files in the repository unless overridden by more specific instructions in other files.
